@@ -1,0 +1,182 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dllMyLog", "..\mylog\mylog.vcxproj", "{BBE2BFA7-E2B8-4C76-B4B4-D8BC646707D4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tobe", "..\zip\examples\tobe\testVS.vcxproj", "{321282E9-082D-413F-8D0B-F62FEDF8428B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tobj", "..\zip\examples\tobj\test.vcxproj", "{EC858DED-515C-4BD8-A1BA-CCFE5F3A8AB7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "polyfacetool", "..\Polyfacetool\Polyfacetool.vcxproj", "{4AF3C70C-7E83-41A8-87A0-D36BEC9F577E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "easySQLite", "..\easySQLite\easySQLite\easySQLite.vcxproj", "{BE70F934-0565-4412-BBDF-F3653B487DC7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test1", "..\test1\test1.vcxproj", "{6207D361-AA1C-46B8-B78A-FA11493B0169}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dllglog", "..\glog-0.3.5\vsprojects\libglog\libglog.vcxproj", "{34BD04BD-BC1D-4BFC-AAFC-ED02D9E960F1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dlljson", "..\myjson\myjson.vcxproj", "{86446340-E2B7-40B0-9299-FA0625296010}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "client", "..\CS\client\client.vcxproj", "{AE144861-0E74-488E-A2BA-2B519D7C0534}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "server", "..\CS\server\server.vcxproj", "{447A1C36-E526-4D0C-9BD4-CDE0C2053515}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "clienttest", "..\CS\clienttest\clienttest.vcxproj", "{7E2C1B91-62A7-44A5-A559-9704CAEE9D59}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "BentleyPluginService", "BentleyPluginService\BentleyPluginService.vdproj", "{32D56563-7C53-442F-85F7-0751888B929F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		BentlyPlugin|x64 = BentlyPlugin|x64
+		BentlyPlugin|x86 = BentlyPlugin|x86
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBE2BFA7-E2B8-4C76-B4B4-D8BC646707D4}.BentlyPlugin|x64.ActiveCfg = BentlyPlugin|x64
+		{BBE2BFA7-E2B8-4C76-B4B4-D8BC646707D4}.BentlyPlugin|x64.Build.0 = BentlyPlugin|x64
+		{BBE2BFA7-E2B8-4C76-B4B4-D8BC646707D4}.BentlyPlugin|x86.ActiveCfg = BentlyPlugin|Win32
+		{BBE2BFA7-E2B8-4C76-B4B4-D8BC646707D4}.BentlyPlugin|x86.Build.0 = BentlyPlugin|Win32
+		{BBE2BFA7-E2B8-4C76-B4B4-D8BC646707D4}.Debug|x64.ActiveCfg = Debug|x64
+		{BBE2BFA7-E2B8-4C76-B4B4-D8BC646707D4}.Debug|x64.Build.0 = Debug|x64
+		{BBE2BFA7-E2B8-4C76-B4B4-D8BC646707D4}.Debug|x86.ActiveCfg = Debug|Win32
+		{BBE2BFA7-E2B8-4C76-B4B4-D8BC646707D4}.Debug|x86.Build.0 = Debug|Win32
+		{BBE2BFA7-E2B8-4C76-B4B4-D8BC646707D4}.Release|x64.ActiveCfg = Release|x64
+		{BBE2BFA7-E2B8-4C76-B4B4-D8BC646707D4}.Release|x64.Build.0 = Release|x64
+		{BBE2BFA7-E2B8-4C76-B4B4-D8BC646707D4}.Release|x86.ActiveCfg = Release|Win32
+		{BBE2BFA7-E2B8-4C76-B4B4-D8BC646707D4}.Release|x86.Build.0 = Release|Win32
+		{321282E9-082D-413F-8D0B-F62FEDF8428B}.BentlyPlugin|x64.ActiveCfg = BentlyPlugin|x64
+		{321282E9-082D-413F-8D0B-F62FEDF8428B}.BentlyPlugin|x64.Build.0 = BentlyPlugin|x64
+		{321282E9-082D-413F-8D0B-F62FEDF8428B}.BentlyPlugin|x86.ActiveCfg = BentlyPlugin|Win32
+		{321282E9-082D-413F-8D0B-F62FEDF8428B}.BentlyPlugin|x86.Build.0 = BentlyPlugin|Win32
+		{321282E9-082D-413F-8D0B-F62FEDF8428B}.Debug|x64.ActiveCfg = Debug|x64
+		{321282E9-082D-413F-8D0B-F62FEDF8428B}.Debug|x64.Build.0 = Debug|x64
+		{321282E9-082D-413F-8D0B-F62FEDF8428B}.Debug|x86.ActiveCfg = Debug|Win32
+		{321282E9-082D-413F-8D0B-F62FEDF8428B}.Debug|x86.Build.0 = Debug|Win32
+		{321282E9-082D-413F-8D0B-F62FEDF8428B}.Release|x64.ActiveCfg = Release|x64
+		{321282E9-082D-413F-8D0B-F62FEDF8428B}.Release|x64.Build.0 = Release|x64
+		{321282E9-082D-413F-8D0B-F62FEDF8428B}.Release|x86.ActiveCfg = Release|Win32
+		{321282E9-082D-413F-8D0B-F62FEDF8428B}.Release|x86.Build.0 = Release|Win32
+		{EC858DED-515C-4BD8-A1BA-CCFE5F3A8AB7}.BentlyPlugin|x64.ActiveCfg = BentlyPlugin|x64
+		{EC858DED-515C-4BD8-A1BA-CCFE5F3A8AB7}.BentlyPlugin|x64.Build.0 = BentlyPlugin|x64
+		{EC858DED-515C-4BD8-A1BA-CCFE5F3A8AB7}.BentlyPlugin|x86.ActiveCfg = BentlyPlugin|Win32
+		{EC858DED-515C-4BD8-A1BA-CCFE5F3A8AB7}.BentlyPlugin|x86.Build.0 = BentlyPlugin|Win32
+		{EC858DED-515C-4BD8-A1BA-CCFE5F3A8AB7}.Debug|x64.ActiveCfg = Debug|x64
+		{EC858DED-515C-4BD8-A1BA-CCFE5F3A8AB7}.Debug|x64.Build.0 = Debug|x64
+		{EC858DED-515C-4BD8-A1BA-CCFE5F3A8AB7}.Debug|x86.ActiveCfg = Debug|Win32
+		{EC858DED-515C-4BD8-A1BA-CCFE5F3A8AB7}.Debug|x86.Build.0 = Debug|Win32
+		{EC858DED-515C-4BD8-A1BA-CCFE5F3A8AB7}.Release|x64.ActiveCfg = Release|x64
+		{EC858DED-515C-4BD8-A1BA-CCFE5F3A8AB7}.Release|x64.Build.0 = Release|x64
+		{EC858DED-515C-4BD8-A1BA-CCFE5F3A8AB7}.Release|x86.ActiveCfg = Release|Win32
+		{EC858DED-515C-4BD8-A1BA-CCFE5F3A8AB7}.Release|x86.Build.0 = Release|Win32
+		{4AF3C70C-7E83-41A8-87A0-D36BEC9F577E}.BentlyPlugin|x64.ActiveCfg = BentlyPlugin|x64
+		{4AF3C70C-7E83-41A8-87A0-D36BEC9F577E}.BentlyPlugin|x64.Build.0 = BentlyPlugin|x64
+		{4AF3C70C-7E83-41A8-87A0-D36BEC9F577E}.BentlyPlugin|x86.ActiveCfg = BentlyPlugin|Win32
+		{4AF3C70C-7E83-41A8-87A0-D36BEC9F577E}.BentlyPlugin|x86.Build.0 = BentlyPlugin|Win32
+		{4AF3C70C-7E83-41A8-87A0-D36BEC9F577E}.Debug|x64.ActiveCfg = Debug|x64
+		{4AF3C70C-7E83-41A8-87A0-D36BEC9F577E}.Debug|x64.Build.0 = Debug|x64
+		{4AF3C70C-7E83-41A8-87A0-D36BEC9F577E}.Debug|x86.ActiveCfg = Debug|Win32
+		{4AF3C70C-7E83-41A8-87A0-D36BEC9F577E}.Debug|x86.Build.0 = Debug|Win32
+		{4AF3C70C-7E83-41A8-87A0-D36BEC9F577E}.Release|x64.ActiveCfg = Release|x64
+		{4AF3C70C-7E83-41A8-87A0-D36BEC9F577E}.Release|x64.Build.0 = Release|x64
+		{4AF3C70C-7E83-41A8-87A0-D36BEC9F577E}.Release|x86.ActiveCfg = Release|Win32
+		{4AF3C70C-7E83-41A8-87A0-D36BEC9F577E}.Release|x86.Build.0 = Release|Win32
+		{BE70F934-0565-4412-BBDF-F3653B487DC7}.BentlyPlugin|x64.ActiveCfg = BentlyPlugin|x64
+		{BE70F934-0565-4412-BBDF-F3653B487DC7}.BentlyPlugin|x64.Build.0 = BentlyPlugin|x64
+		{BE70F934-0565-4412-BBDF-F3653B487DC7}.BentlyPlugin|x86.ActiveCfg = BentlyPlugin|Win32
+		{BE70F934-0565-4412-BBDF-F3653B487DC7}.BentlyPlugin|x86.Build.0 = BentlyPlugin|Win32
+		{BE70F934-0565-4412-BBDF-F3653B487DC7}.Debug|x64.ActiveCfg = Debug|x64
+		{BE70F934-0565-4412-BBDF-F3653B487DC7}.Debug|x64.Build.0 = Debug|x64
+		{BE70F934-0565-4412-BBDF-F3653B487DC7}.Debug|x86.ActiveCfg = Debug|Win32
+		{BE70F934-0565-4412-BBDF-F3653B487DC7}.Debug|x86.Build.0 = Debug|Win32
+		{BE70F934-0565-4412-BBDF-F3653B487DC7}.Release|x64.ActiveCfg = Release|x64
+		{BE70F934-0565-4412-BBDF-F3653B487DC7}.Release|x64.Build.0 = Release|x64
+		{BE70F934-0565-4412-BBDF-F3653B487DC7}.Release|x86.ActiveCfg = Release|Win32
+		{BE70F934-0565-4412-BBDF-F3653B487DC7}.Release|x86.Build.0 = Release|Win32
+		{6207D361-AA1C-46B8-B78A-FA11493B0169}.BentlyPlugin|x64.ActiveCfg = BentlyPlugin|x64
+		{6207D361-AA1C-46B8-B78A-FA11493B0169}.BentlyPlugin|x64.Build.0 = BentlyPlugin|x64
+		{6207D361-AA1C-46B8-B78A-FA11493B0169}.BentlyPlugin|x86.ActiveCfg = BentlyPlugin|Win32
+		{6207D361-AA1C-46B8-B78A-FA11493B0169}.BentlyPlugin|x86.Build.0 = BentlyPlugin|Win32
+		{6207D361-AA1C-46B8-B78A-FA11493B0169}.Debug|x64.ActiveCfg = Debug|x64
+		{6207D361-AA1C-46B8-B78A-FA11493B0169}.Debug|x64.Build.0 = Debug|x64
+		{6207D361-AA1C-46B8-B78A-FA11493B0169}.Debug|x86.ActiveCfg = Debug|Win32
+		{6207D361-AA1C-46B8-B78A-FA11493B0169}.Debug|x86.Build.0 = Debug|Win32
+		{6207D361-AA1C-46B8-B78A-FA11493B0169}.Release|x64.ActiveCfg = Release|x64
+		{6207D361-AA1C-46B8-B78A-FA11493B0169}.Release|x64.Build.0 = Release|x64
+		{6207D361-AA1C-46B8-B78A-FA11493B0169}.Release|x86.ActiveCfg = Release|Win32
+		{6207D361-AA1C-46B8-B78A-FA11493B0169}.Release|x86.Build.0 = Release|Win32
+		{34BD04BD-BC1D-4BFC-AAFC-ED02D9E960F1}.BentlyPlugin|x64.ActiveCfg = BentlyPlugin|x64
+		{34BD04BD-BC1D-4BFC-AAFC-ED02D9E960F1}.BentlyPlugin|x64.Build.0 = BentlyPlugin|x64
+		{34BD04BD-BC1D-4BFC-AAFC-ED02D9E960F1}.BentlyPlugin|x86.ActiveCfg = BentlyPlugin|Win32
+		{34BD04BD-BC1D-4BFC-AAFC-ED02D9E960F1}.BentlyPlugin|x86.Build.0 = BentlyPlugin|Win32
+		{34BD04BD-BC1D-4BFC-AAFC-ED02D9E960F1}.Debug|x64.ActiveCfg = Debug|x64
+		{34BD04BD-BC1D-4BFC-AAFC-ED02D9E960F1}.Debug|x64.Build.0 = Debug|x64
+		{34BD04BD-BC1D-4BFC-AAFC-ED02D9E960F1}.Debug|x86.ActiveCfg = Debug|Win32
+		{34BD04BD-BC1D-4BFC-AAFC-ED02D9E960F1}.Debug|x86.Build.0 = Debug|Win32
+		{34BD04BD-BC1D-4BFC-AAFC-ED02D9E960F1}.Release|x64.ActiveCfg = Release|x64
+		{34BD04BD-BC1D-4BFC-AAFC-ED02D9E960F1}.Release|x64.Build.0 = Release|x64
+		{34BD04BD-BC1D-4BFC-AAFC-ED02D9E960F1}.Release|x86.ActiveCfg = Release|Win32
+		{34BD04BD-BC1D-4BFC-AAFC-ED02D9E960F1}.Release|x86.Build.0 = Release|Win32
+		{86446340-E2B7-40B0-9299-FA0625296010}.BentlyPlugin|x64.ActiveCfg = BentlyPlugin|x64
+		{86446340-E2B7-40B0-9299-FA0625296010}.BentlyPlugin|x64.Build.0 = BentlyPlugin|x64
+		{86446340-E2B7-40B0-9299-FA0625296010}.BentlyPlugin|x86.ActiveCfg = BentlyPlugin|Win32
+		{86446340-E2B7-40B0-9299-FA0625296010}.BentlyPlugin|x86.Build.0 = BentlyPlugin|Win32
+		{86446340-E2B7-40B0-9299-FA0625296010}.Debug|x64.ActiveCfg = Debug|x64
+		{86446340-E2B7-40B0-9299-FA0625296010}.Debug|x64.Build.0 = Debug|x64
+		{86446340-E2B7-40B0-9299-FA0625296010}.Debug|x86.ActiveCfg = Debug|Win32
+		{86446340-E2B7-40B0-9299-FA0625296010}.Debug|x86.Build.0 = Debug|Win32
+		{86446340-E2B7-40B0-9299-FA0625296010}.Release|x64.ActiveCfg = Release|x64
+		{86446340-E2B7-40B0-9299-FA0625296010}.Release|x64.Build.0 = Release|x64
+		{86446340-E2B7-40B0-9299-FA0625296010}.Release|x86.ActiveCfg = Release|Win32
+		{86446340-E2B7-40B0-9299-FA0625296010}.Release|x86.Build.0 = Release|Win32
+		{AE144861-0E74-488E-A2BA-2B519D7C0534}.BentlyPlugin|x64.ActiveCfg = BentlyPlugin|x64
+		{AE144861-0E74-488E-A2BA-2B519D7C0534}.BentlyPlugin|x64.Build.0 = BentlyPlugin|x64
+		{AE144861-0E74-488E-A2BA-2B519D7C0534}.BentlyPlugin|x86.ActiveCfg = BentlyPlugin|Win32
+		{AE144861-0E74-488E-A2BA-2B519D7C0534}.BentlyPlugin|x86.Build.0 = BentlyPlugin|Win32
+		{AE144861-0E74-488E-A2BA-2B519D7C0534}.Debug|x64.ActiveCfg = Debug|x64
+		{AE144861-0E74-488E-A2BA-2B519D7C0534}.Debug|x64.Build.0 = Debug|x64
+		{AE144861-0E74-488E-A2BA-2B519D7C0534}.Debug|x86.ActiveCfg = Debug|Win32
+		{AE144861-0E74-488E-A2BA-2B519D7C0534}.Debug|x86.Build.0 = Debug|Win32
+		{AE144861-0E74-488E-A2BA-2B519D7C0534}.Release|x64.ActiveCfg = Release|x64
+		{AE144861-0E74-488E-A2BA-2B519D7C0534}.Release|x64.Build.0 = Release|x64
+		{AE144861-0E74-488E-A2BA-2B519D7C0534}.Release|x86.ActiveCfg = Release|Win32
+		{AE144861-0E74-488E-A2BA-2B519D7C0534}.Release|x86.Build.0 = Release|Win32
+		{447A1C36-E526-4D0C-9BD4-CDE0C2053515}.BentlyPlugin|x64.ActiveCfg = BentlyPlugin|x64
+		{447A1C36-E526-4D0C-9BD4-CDE0C2053515}.BentlyPlugin|x64.Build.0 = BentlyPlugin|x64
+		{447A1C36-E526-4D0C-9BD4-CDE0C2053515}.BentlyPlugin|x86.ActiveCfg = BentlyPlugin|Win32
+		{447A1C36-E526-4D0C-9BD4-CDE0C2053515}.BentlyPlugin|x86.Build.0 = BentlyPlugin|Win32
+		{447A1C36-E526-4D0C-9BD4-CDE0C2053515}.Debug|x64.ActiveCfg = Debug|x64
+		{447A1C36-E526-4D0C-9BD4-CDE0C2053515}.Debug|x64.Build.0 = Debug|x64
+		{447A1C36-E526-4D0C-9BD4-CDE0C2053515}.Debug|x86.ActiveCfg = Debug|Win32
+		{447A1C36-E526-4D0C-9BD4-CDE0C2053515}.Debug|x86.Build.0 = Debug|Win32
+		{447A1C36-E526-4D0C-9BD4-CDE0C2053515}.Release|x64.ActiveCfg = Release|x64
+		{447A1C36-E526-4D0C-9BD4-CDE0C2053515}.Release|x64.Build.0 = Release|x64
+		{447A1C36-E526-4D0C-9BD4-CDE0C2053515}.Release|x86.ActiveCfg = Release|Win32
+		{447A1C36-E526-4D0C-9BD4-CDE0C2053515}.Release|x86.Build.0 = Release|Win32
+		{7E2C1B91-62A7-44A5-A559-9704CAEE9D59}.BentlyPlugin|x64.ActiveCfg = BentlyPlugin|x64
+		{7E2C1B91-62A7-44A5-A559-9704CAEE9D59}.BentlyPlugin|x64.Build.0 = BentlyPlugin|x64
+		{7E2C1B91-62A7-44A5-A559-9704CAEE9D59}.BentlyPlugin|x86.ActiveCfg = BentlyPlugin|Win32
+		{7E2C1B91-62A7-44A5-A559-9704CAEE9D59}.BentlyPlugin|x86.Build.0 = BentlyPlugin|Win32
+		{7E2C1B91-62A7-44A5-A559-9704CAEE9D59}.Debug|x64.ActiveCfg = Debug|x64
+		{7E2C1B91-62A7-44A5-A559-9704CAEE9D59}.Debug|x64.Build.0 = Debug|x64
+		{7E2C1B91-62A7-44A5-A559-9704CAEE9D59}.Debug|x86.ActiveCfg = Debug|Win32
+		{7E2C1B91-62A7-44A5-A559-9704CAEE9D59}.Debug|x86.Build.0 = Debug|Win32
+		{7E2C1B91-62A7-44A5-A559-9704CAEE9D59}.Release|x64.ActiveCfg = Release|x64
+		{7E2C1B91-62A7-44A5-A559-9704CAEE9D59}.Release|x64.Build.0 = Release|x64
+		{7E2C1B91-62A7-44A5-A559-9704CAEE9D59}.Release|x86.ActiveCfg = Release|Win32
+		{7E2C1B91-62A7-44A5-A559-9704CAEE9D59}.Release|x86.Build.0 = Release|Win32
+		{32D56563-7C53-442F-85F7-0751888B929F}.BentlyPlugin|x64.ActiveCfg = Release
+		{32D56563-7C53-442F-85F7-0751888B929F}.BentlyPlugin|x86.ActiveCfg = Release
+		{32D56563-7C53-442F-85F7-0751888B929F}.Debug|x64.ActiveCfg = Debug
+		{32D56563-7C53-442F-85F7-0751888B929F}.Debug|x86.ActiveCfg = Debug
+		{32D56563-7C53-442F-85F7-0751888B929F}.Release|x64.ActiveCfg = Release
+		{32D56563-7C53-442F-85F7-0751888B929F}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

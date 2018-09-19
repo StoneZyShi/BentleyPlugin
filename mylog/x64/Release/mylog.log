@@ -1,0 +1,17 @@
+﻿  E:\BentlyPlugin\Distribute\projects\..\DLL\dllglog.dll
+  复制了 1 个文件
+  E:\BentlyPlugin\Distribute\projects\..\projects\x64\Release\dllglog.lib
+  复制了 1 个文件
+  mylog.cpp
+e:\bentlyplugin\distribute\mylog\mylog.h(5): warning C4005: “MYLOG_API”: 宏重定义
+  mylog.cpp(1): note: 参见“MYLOG_API”的前一个定义
+    正在创建库 E:\BentlyPlugin\Distribute\projects\x64\Release\dllMyLog.lib 和对象 E:\BentlyPlugin\Distribute\projects\x64\Release\dllMyLog.exp
+  正在生成代码
+  76 of 77 functions (98.7%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  mylog.vcxproj -> E:\BentlyPlugin\Distribute\projects\x64\Release\dllMyLog.dll
+  mylog.vcxproj -> E:\BentlyPlugin\Distribute\projects\x64\Release\dllMyLog.pdb (Full PDB)
+  E:\BentlyPlugin\Distribute\projects\x64\Release\dllMyLog.dll
+  复制了 1 个文件

@@ -1,0 +1,43 @@
+﻿  stdafx.cpp
+  easySQLite.cpp
+  SHA1.cpp
+  SqlCommon.cpp
+easySqlite\SqlCommon.cpp(168): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  SqlDatabase.cpp
+  SqlField.cpp
+  SqlFieldSet.cpp
+  SqlRecord.cpp
+easySqlite\SqlRecord.cpp(44): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  SqlRecordSet.cpp
+easySqlite\SqlRecordSet.cpp(63): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  SqlTable.cpp
+  SqlValue.cpp
+  TestSqlDatabase.cpp
+  TestSqlField.cpp
+  TestSqlFieldSet.cpp
+  TestSqlRecord.cpp
+  TestSqlRecordSet.cpp
+  TestSqlTable.cpp
+  TestSqlValue.cpp
+  AssertException.cpp
+  Checks.cpp
+  CurrentTest.cpp
+  正在编译...
+  DeferredTestReporter.cpp
+  DeferredTestResult.cpp
+  MemoryOutStream.cpp
+  ReportAssert.cpp
+  Test.cpp
+  TestDetails.cpp
+  TestList.cpp
+  TestReporter.cpp
+  TestReporterStdout.cpp
+  TestResults.cpp
+  TestRunner.cpp
+  TimeConstraint.cpp
+  TimeHelpers.cpp
+  XmlTestReporter.cpp
+  sqlite3.c
+easySqlite\sqlite3.c(29295): warning C4996: 'GetVersionExW': 被声明为已否决
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(442): note: 参见“GetVersionExW”的声明
+  easySQLite.vcxproj -> E:\BentlyPlugin\Distribute\projects\x64\Release\easySQLite.lib

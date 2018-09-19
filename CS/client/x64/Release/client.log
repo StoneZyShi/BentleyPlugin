@@ -1,0 +1,13 @@
+﻿  client.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+    正在创建库 E:\BentlyPlugin\test3\projects\x64\Release\client.lib 和对象 E:\BentlyPlugin\test3\projects\x64\Release\client.exp
+  正在生成代码
+  All 734 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  client.vcxproj -> E:\BentlyPlugin\test3\projects\x64\Release\client.dll
+  client.vcxproj -> E:\BentlyPlugin\test3\projects\x64\Release\client.pdb (Full PDB)
+  E:\BentlyPlugin\test3\projects\x64\Release\client.dll
+  复制了 1 个文件

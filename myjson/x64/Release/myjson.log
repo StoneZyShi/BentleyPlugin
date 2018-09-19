@@ -1,0 +1,18 @@
+﻿  cJSON.c
+cJSON.c(577): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+cJSON.c(718): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+  CJsonObject.cpp
+CJsonObject.cpp(690): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+CJsonObject.cpp(1698): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+  main.cpp
+  myjson.cpp
+    正在创建库 E:\BentlyPlugin\Distribute\projects\x64\Release\dlljson.lib 和对象 E:\BentlyPlugin\Distribute\projects\x64\Release\dlljson.exp
+  正在生成代码
+  352 of 354 functions (99.4%) were compiled, the rest were copied from previous compilation.
+    2 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  myjson.vcxproj -> E:\BentlyPlugin\Distribute\projects\x64\Release\dlljson.dll
+  myjson.vcxproj -> E:\BentlyPlugin\Distribute\projects\x64\Release\dlljson.pdb (Full PDB)
+  E:\BentlyPlugin\Distribute\projects\x64\Release\dlljson.dll
+  复制了 1 个文件

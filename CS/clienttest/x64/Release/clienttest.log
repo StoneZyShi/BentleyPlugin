@@ -1,0 +1,14 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (test.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  E:\BentlyPlugin\test3\projects\..\DLL\dlljson.dll
+  复制了 1 个文件
+  E:\BentlyPlugin\test3\projects\..\DLL\client.dll
+  复制了 1 个文件
+  源.cpp
+    正在创建库 E:\BentlyPlugin\test3\projects\x64\Release\clienttest.lib 和对象 E:\BentlyPlugin\test3\projects\x64\Release\clienttest.exp
+  正在生成代码
+  1 of 149 functions ( 0.7%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    7 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  clienttest.vcxproj -> E:\BentlyPlugin\test3\projects\x64\Release\clienttest.exe
+  clienttest.vcxproj -> E:\BentlyPlugin\test3\projects\x64\Release\clienttest.pdb (Full PDB)

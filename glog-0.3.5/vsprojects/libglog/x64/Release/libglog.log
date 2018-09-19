@@ -1,0 +1,32 @@
+﻿  logging.cc
+..\..\src\logging.cc(200): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+..\..\src\logging.cc(216): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+..\..\src\logging.cc(631): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+..\..\src\logging.cc(764): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+..\..\src\logging.cc(789): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+..\..\src\logging.cc(799): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+..\..\src\logging.cc(1084): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+..\..\src\logging.cc(1084): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+..\..\src\logging.cc(1345): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+..\..\src\logging.cc(1345): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+..\..\src\logging.cc(1418): warning C4267: “参数”: 从“size_t”转换到“const int”，可能丢失数据
+..\..\src\logging.cc(1440): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+..\..\src\logging.cc(1518): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+..\..\src\logging.cc(1531): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  raw_logging.cc
+..\..\src\raw_logging.cc(153): warning C4267: “参数”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  utilities.cc
+  vlog_is_on.cc
+..\..\src\vlog_is_on.cc(163): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+..\..\src\vlog_is_on.cc(163): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+  port.cc
+    正在创建库 E:\BentlyPlugin\Distribute\projects\x64\Release\dllglog.lib 和对象 E:\BentlyPlugin\Distribute\projects\x64\Release\dllglog.exp
+  正在生成代码
+e:\bentlyplugin\distribute\glog-0.3.5\src\windows\glog\logging.h(1635): warning C4722: “google::NullStreamFatal::~NullStreamFatal”: 析构函数永远不会返回，可能会发生内存泄漏
+e:\bentlyplugin\distribute\glog-0.3.5\src\logging.cc(2026): warning C4722: “google::LogMessageFatal::~LogMessageFatal”: 析构函数永远不会返回，可能会发生内存泄漏
+  All 612 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  libglog.vcxproj -> E:\BentlyPlugin\Distribute\projects\x64\Release\dllglog.dll
+  libglog.vcxproj -> E:\BentlyPlugin\Distribute\projects\x64\Release\dllglog.pdb (Full PDB)
+  E:\BentlyPlugin\Distribute\projects\x64\Release\dllglog.dll
+  复制了 1 个文件
